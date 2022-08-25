@@ -111,8 +111,8 @@
             img(src='@/assets/curso/tema6/img10.png')
           .col-md-7
             p El factor de costo de infraestructura es una preocupación que se debe analizar en cualquier organización que decida implementar un sistema de gestión de la continuidad del negocio puesto que para la implementación de la misma se requiere de la compra y/o adquisición de equipos y locaciones para realizar estos procesos. Muchas empresas no cuentan con estos recursos lo cual puede crear la situación de que no se realice dicho proceso. El tema de la seguridad y la sostenibilidad de los centros de datos han llevado a muchas empresas en repensar la forma en cómo se almacenan los datos y pueden delegar dichos servicios. 
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Housing")
-        h4 Housing
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="<em>Housing</em>")
+        h4 #[i Housing]
         .row.justify-content-center
           .col-md-5.col-10.mb-md-0.mb-4
             img(src='@/assets/curso/tema6/img11.png')

@@ -183,24 +183,22 @@
 
     p Ahora bien, luego de la recolección de la información, se inicia el proceso para su realización, el cual se evidencia en el siguiente gráfico, en el que se desarrollará en este punto los dos primeros pasos, críticos para su correcto establecimiento:
 
-    ImagenInfograficaB.color-acento-botones.mb-5(data-aos="zoom-in")
+    ImagenInfograficaB.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema2/img11.svg')
-      div(x="2.5%" y="40%" tooltip="Identificación de funciones y procesos" numero="+")
-        .row.justify-content-center.align-items-center.BG07.p-4
-          .col-6
-            h5 Identificación de funciones y procesos
-            p En este paso se deben establecer todos los procesos que se requieren para realizar la misión de la organización.
-          .col-6
-            img(src='@/assets/curso/tema2/img12.jpg')
-      div(x="16.5%" y="40%" tooltip="Evaluación de impactos operacionales" numero="+")
-        .BG07.p-4
-          .h4 Evaluación de impactos operacionales
-          p Se pretende evaluar todos los procesos negativos que pueden generar que el proceso de negocio no funcione de manera adecuada. También se define su escala.
-          p #[strong Nivel A]: son procesos con carácter crítico. Son aquellos que una vez ocurren no permiten que la organización pueda realizar sus procesos de negocio de manera correcta o no puedan realizarse.
-          p #[strong Nivel B]: están integrados a la organización; es decir, se depende mucho de ellos para la ejecución de otros procesos y sin estos la organización no podría operar de manera correcta; sin embargo, la operación no es crítica y puede ser subsanada de una manera sencilla.
-          p #[strong Nivel C]: la operación no es parte integral del negocio por lo tanto la afectación para este caso es mínima y puede ser solucionada de manera sencilla sin causar traumatismo en los procesos de negocio.
+      .row.justify-content-center.align-items-center.BG07.p-4(x="2.5%" y="40%" tooltip="Identificación de funciones y procesos" numero="+")
+        .col-6
+          h5 Identificación de funciones y procesos
+          p En este paso se deben establecer todos los procesos que se requieren para realizar la misión de la organización.
+        .col-6
+          img(src='@/assets/curso/tema2/img12.jpg')
+      .row.BG07.p-4(x="16.5%" y="40%" tooltip="Evaluación de impactos operacionales" numero="+")
+        .h4 Evaluación de impactos operacionales
+        p Se pretende evaluar todos los procesos negativos que pueden generar que el proceso de negocio no funcione de manera adecuada. También se define su escala.
+        p #[strong Nivel A]: son procesos con carácter crítico. Son aquellos que una vez ocurren no permiten que la organización pueda realizar sus procesos de negocio de manera correcta o no puedan realizarse.
+        p #[strong Nivel B]: están integrados a la organización; es decir, se depende mucho de ellos para la ejecución de otros procesos y sin estos la organización no podría operar de manera correcta; sin embargo, la operación no es crítica y puede ser subsanada de una manera sencilla.
+        p #[strong Nivel C]: la operación no es parte integral del negocio por lo tanto la afectación para este caso es mínima y puede ser solucionada de manera sencilla sin causar traumatismo en los procesos de negocio.
     
     p.mb-5 Ahora bien, en la siguiente tabla se observa un ejemplo de cómo se deben definir los niveles de criticidad de los procesos de negocio de la organización teniendo en cuenta que algunos de ellos son parte integral del negocio y otros no (ver tabla 3):
 
@@ -299,19 +297,22 @@
         .col-md-11
           p En este paso se deben identificar todos los incidentes que se pueden presentar en los procesos de negocio. Este proceso es fundamental puesto que en algunas ocasiones se desconocen procesos que pueden también generar traumatismo. Es importante identificar la mayor cantidad de procesos la conexión que tienen con los demás para garantizar una mayor cobertura.
           p La identificación del incidente se debe ingresar la siguiente información:
-          p Título o identificador del incidente.
           ol.lista-ol--cuadro
             li 
               .lista-ol--cuadro__vineta
                 span a
-              | Descripción.
+              |Título o identificador del incidente.
             li 
               .lista-ol--cuadro__vineta
                 span b
-              | Fecha.
+              | Descripción.
             li 
               .lista-ol--cuadro__vineta
                 span c
+              | Fecha.
+            li 
+              .lista-ol--cuadro__vineta
+                span d
               | Nombre de quién gestiona el incidente.
           p Estos datos proporcionados garantizarán que una vez se presente el incidente, se podrá consultar e identificar de una manera más sencilla y eficiente, pues el tiempo de procesamiento y búsqueda de la información entre menor sea, mucho mejor para el proceso.
       .row.justify-content-center(titulo="Clasificación del incidente")
@@ -347,7 +348,7 @@
           p Existen incidentes que requieren un mayor grado de monitoreo y seguimiento por parte de los encargados. Estos casos requieren la asignación de recursos (tecnológicos, humanos o financieros) para lograr un mayor control sobre los mismos. También existen riesgos que son de naturaleza tercerizada y por tanto, su  solución depende de un tercero (como los servicios de internet, por ejemplo), en cuyo caso lo mejor es realizar un estudio de viabilidad al momento de realizar las contrataciones de este tipo y cerciorarse que la empresa que se está contratando cumpla con las expectativas que necesita el negocio, incluida la capacidad de respuesta a los incidentes que se puedan presentar.
       .row.justify-content-center(titulo="Cierre del incidente")
         .col-md-11
-          p Esta es la etapa final en la cual culmina el proceso de gestión de incidentes. Aquí se un diagnóstico de los resultados presentados en el incidente, se recopilan evidencias que sustentan que el incidente fue solucionado de manera correcta y una verificación, mediante pruebas específicas, para demostrar el correcto funcionamiento y atención al mismo. En algunas ocasiones se emite un informe donde se da a conocer los procesos realizados y cómo se llegó a la solución del incidente.
+          p Esta es la etapa final en la cual culmina el proceso de gestión de incidentes. Aquí se da un diagnóstico de los resultados presentados en el incidente, se recopilan evidencias que sustentan que el incidente fue solucionado de manera correcta y una verificación, mediante pruebas específicas, para demostrar el correcto funcionamiento y atención al mismo. En algunas ocasiones se emite un informe donde se da a conocer los procesos realizados y cómo se llegó a la solución del incidente.
           p En esta etapa conviene guardar cualquier clase de documentación que se haya generado en los pasos anteriores y una posterior  retroalimentación del proceso de manera positiva en la mayoría de los casos, para todos los involucrados. Esto también permite ver, si en algún momento se requiere, procesos anteriores y bases de datos de sucesos. De tal forma que si alguno  se repite, exista ya la solución de este incidente y por ende la ruta de procesos para su solución.
 
 

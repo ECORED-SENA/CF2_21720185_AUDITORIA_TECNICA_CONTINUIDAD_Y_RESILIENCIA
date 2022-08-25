@@ -14,7 +14,7 @@
         .row.justify-content-center
           .col-md-5.order-md-1.order-2
             .h4 Ejemplo 1
-            p Una empresa prestadora de servicios de salud tiene un software que permite realizar la asignación de citas a los pacientes desde un aplicativo local y otro a través de internet. 
+            p Una empresa prestadora de servicios de salud tiene un #[i software] que permite realizar la asignación de citas a los pacientes desde un aplicativo local y otro a través de internet. 
             p El aplicativo que funciona desde internet presenta una falla, ocasionando que los usuarios de la entidad no pueda realizar sus citas médicas desde la comodidad de sus casas. Ahora bien, esto, se podría decir que, no es traumático pero si se analiza desde un punto de vista competitivo para la organización, sí lo es, ya que acerca a los usuarios a la organización de manera cómoda y segura. 
           .col-md-7.col-10.order-md-2.order-1.mb-md-0.mb-4
             img(src='@/assets/curso/tema3/img01.png')
