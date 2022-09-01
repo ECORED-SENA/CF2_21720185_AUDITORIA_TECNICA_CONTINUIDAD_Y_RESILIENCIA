@@ -156,7 +156,7 @@
 
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ZbrLjTtDFcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p La norma ISO 22301 es el estándar establecido para la gestión de la continuidad del negocio la cual se ve reflejada en la utilización de mejores prácticas para lograr que una empresa mantenga su operatividad aun sufriendo riesgos e inconvenientes. Esta norma también garantiza las mejores prácticas para poder recuperar los procesos de negocio de manera efectiva y eficiente. La siguiente figura 6 ilustra cómo funciona la gestión de continuidad del negocio:
 

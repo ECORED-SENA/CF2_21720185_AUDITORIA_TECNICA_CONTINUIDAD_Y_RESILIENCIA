@@ -147,7 +147,7 @@
 
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/-69AgRp3_IA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p Contar con un sistema de control dentro de la gestión de riesgos permite vigilar y monitorear el funcionamiento correcto de los procesos. Existen diferentes tipos de auditorías, pero es la auditoría interna la que se enfoca en el cumplimiento de los objetivos de la organización . 
 

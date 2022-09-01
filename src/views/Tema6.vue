@@ -41,7 +41,7 @@
               h4 ¿Cómo implantar un sistema de gestión de continuidad de negocio?
               p Los procesos de implantación de un SGCN requieren de un conjunto de actividades organizadas para lograr la integración de cada uno de los procesos que estos soportan. Es importante considerar que todas las actividades deben estar diseñadas para cumplir con el objetivo principal del sistema de gestión y evitar la interrupción de los procesos de negocio que tiene la organización todo esto es esencial para su correcta implantación. En el siguiente video se puede apreciar algunos aspectos a considerar en la implantación de un SGCN. Este recurso también se encuentra en el material complementario.
             .col-sm-auto
-              a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/embed/LTZLxE1UHfE" target="_blank")
+              a.anexo.mb-4.mb-lg-0(href="/LTZLxE1UHfE" target="_blank")
                 .anexo__texto
                   p Ver video
 
