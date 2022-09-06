@@ -154,9 +154,20 @@
     p La normatividad permite estandarizar los procesos y acciones que se ejecutan de manera continua en la organización. Cuando se dice que un proceso se lleva a cabo a través de una norma específica se sabe que este utiliza un referente, en la mayoría de los casos internacional, lo que a su vez es referencia para la aplicación de buenas prácticas y mejorar un proceso de negocio o actividad en particular. Así mismo, las normas, de alguna manera, le dan a la empresa el prestigio y reconocimiento no solo a nivel local sino también internacional, ya que se garantiza que todos los procesos que allí se realizan están debidamente documentados y probados.
     p Para que una organización empiece un proceso de certificación debe empezar a mejorar y orientar los procesos que esta maneja hacia el referente de la norma, tal como se evidencia en el ejemplo descrito en el siguiente video:
 
-    figure.mb-5(data-aos="zoom-in")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/ZbrLjTtDFcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .row.justify-content-center.BG15.p-4.mb-5
+      .col-md-5.col-10.mb-md-0.mb-4(data-aos="fade-right")
+        img(src='@/assets/curso/tema3/img15.png')
+      .col-md-7.mb-4
+        .h4 Una empresa se dedica a la distribución de alimentos, como bien sabemos existen alimentos perecederos y no perecederos, lo que quiere decir que no tienen el mismo tratamiento. 
+        p En cuanto a la logística de distribución, su transporte y conservación, se podría decir que la organización realiza la entrega de los productos de una manera empírica y rigiéndose por su experiencia en el mercado. Esta empresa ha tomado de la decisión de tener un contrato con otra compañía para aumentar sus ventas y posicionamiento. Sin embargo, esta trabaja bajo los estándares de normas internacionales.
+        p Ante esto, ahora la empresa deberá ajustar sus procesos tales como mejoramiento de la logística de distribución, calidad de los contenedores de la cadena de frío para transportar los productos, esto quiere decir que se debe renovar o mejorar los vehículos, los tiempos de entrega deben ajustarse a los cronogramas planteados, por lo tanto debe tener un plan para la adquisición de nuevos vehículos, que cumplan con la normatividad y otros procesos, que deben ajustar para poder ganar dicho contrato.
+      .col-12.BG16.p-4(data-aos="fade-right")
+        .row.justify-content-center
+          .col-md-2.col-4.mb-md-0.mb-4
+            img(src='@/assets/curso/tema3/img16.png')
+          .col-md-10
+            p Este ejemplo evidencia las modificaciones que tiene que tener una empresa si desea ser competitiva en un mercado, en el que las certificaciones son un requisito para su participación en él; y aunque se sabe que no es de obligatoriedad su implementación para su funcionamiento operativo, sí es fundamental para poder entrar y posicionarse en estos contextos. #[strong Toda empresa que busque trabajar con otra, la cual ya maneja unos estándares, debe estudiar con qué normatividad se está basando para poder participar en sus contrataciones].
 
     p La norma ISO 22301 es el estándar establecido para la gestión de la continuidad del negocio la cual se ve reflejada en la utilización de mejores prácticas para lograr que una empresa mantenga su operatividad aun sufriendo riesgos e inconvenientes. Esta norma también garantiza las mejores prácticas para poder recuperar los procesos de negocio de manera efectiva y eficiente. La siguiente figura 6 ilustra cómo funciona la gestión de continuidad del negocio:
 

@@ -18,7 +18,7 @@
     
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ZbrLjTtDFcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .BG01.p-4.mb-4(data-aos="fade-right")
       p Existen muchos procesos de negocio que son esenciales para las empresas y por tanto se denominan «#[strong críticos del negocio]». Son aquellos que hacen que la empresa preste los servicios de la manera más eficiente a sus clientes. De ahí que sean precisamente a estos a los cuales se les debe brindar la mayor fuerza de inversión y atención, sobre todo en procesos de continuidad; en otras palabras, son la razón de ser de la organización y la manera en cómo se mantienen presentes en el mercado. Si estos fallan o se detienen, la empresa pierde dinero y posicionamiento.

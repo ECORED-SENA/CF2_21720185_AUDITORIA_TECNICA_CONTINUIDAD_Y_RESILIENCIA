@@ -219,9 +219,114 @@
     
     p La construcción de los planes de mejora continua debe estar conectada a los procesos ejecutados en la auditoría interna ya que estos deben reflejar los resultados obtenidos en los hallazgos allí encontrados. La mejora continua será el resultado de la aplicación de las recomendaciones dadas en el informe de auditoría, las cuales desde el punto de vista del auditor se deben realizar. El siguiente video expone un ejemplo de esto: 
 
-    figure.mb-5(data-aos="zoom-in")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .row.justify-content-center.BG15.p-4.mb-5
+      .col-md-3.col-6.mb-md-0.mb-4
+        figure.mb-4
+          img(src='@/assets/curso/tema5/img33.png')
+      .col-md-9
+        p #[strong En la construcción de los planes de mejora continua siempre se deben contemplar los recursos sugeridos]. Por ejemplo,  un centro de datos no cuenta con los mecanismos necesarios que garanticen que solo personal autorizado y con los conocimientos específicos sean quienes manipulen los dispositivos que allí se encuentran.
+        p Actualmente, solo se cuenta con candado común y corriente y es la secretaria, quien tiene copia de esta llave y le permite el ingreso a personas que no hace parte de esta área. En un proceso de auditoría, este hallazgo se reporta como negativo en el informe.
+      .col-12
+        p El sistema de gestión de la continuidad del negocio deberá, entonces, realizar los cambios necesarios para subsanarlo y por ende, necesitará de algunos recursos como: la compra de una chapa con tecnología biométrica para cumplir con la norma de seguridad, segundo, la contratación de una empresa o persona que realice la configuración e instalación de la medida de seguridad y luego, registrar la mejora realizada.
+      .col-md-3.col-8.mb-md-0.mb-4
+        .tarjeta--boton.color-acento-botones.p-3.mb-4
+          .row.justify-content-start.mb-3
+            .col-md-3.col-4
+              img(src='@/assets/curso/tema5/img34.png')
+          p.mb-2 Norma de seguridad
+      .col-md-3.col-8.mb-md-0.mb-4
+        .tarjeta--boton.color-acento-botones.p-3.mb-4
+          .row.justify-content-start.mb-3
+            .col-md-4.col-4
+              img(src='@/assets/curso/tema5/img35.png')
+          p.mb-0 Configuración e instalación 
+      .col-md-3.col-8.mb-4
+        .tarjeta--boton.color-acento-botones.p-3.mb-4
+          .row.justify-content-start.mb-3
+            .col-md-3.col-4
+              img(src='@/assets/curso/tema5/img36.png')
+          p.mb-2 Registrar la mejora
+      .col-12.mb-4
+        .row.justify-content-start.mb-4
+          .col-auto.BG05.p-2
+            .h4.mb-0 Aspectos
+        p.mb-4 Es por ello que se deben tener en cuenta los siguientes aspectos en un plan de mejora continua en un SGCN.
+        
+        SlyderF.mb-4(columnas="col-md-6 col-lg-4")
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/img37.png' alt='AvatarTop')
+            .BG15
+              .BG12.p-4
+                .BGR18.p-2.mt-5.mb-4
+                  h4.text-center.mb-0 Proveedores y subcontratistas
+              .BG17.p-4.pb-5
+                p.mb-0 Revisiones del SGCN incluyendo proveedores y subcontratistas esenciales.<br><br>
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/img38.png' alt='AvatarTop')
+            .BG15
+              .BG05.p-4
+                .BGR18.p-2.mt-5.mb-4
+                  h4.text-center.mb-0 Comentarios y observaciones
+              .BG19.p-4.pb-5
+                p.mb-0 Comentarios de las partes interesadas, incluyendo observaciones independientes.<br><br>
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/img39.png' alt='AvatarTop')
+            .BG15
+              .BG12.p-4
+                .BGR18.p-2.mt-5.mb-4
+                  h4.text-center.mb-0 Mejoramiento de la eficacia
+              .BG17.p-4.pb-5
+                p.mb-0 Técnicas, productos o procedimientos que mejoren la eficacia del SGCN.<br><br>
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/img40.png' alt='AvatarTop')
+            .BG15
+              .BG05.p-4
+                .BGR18.p-2.mt-5
+                  h4.text-center.mb-0 Acciones preventivas y correctivas
+              .BG19.p-4.pb-5
+                p.mb-0 El estado de las acciones preventivas y correctivas y recomendaciones de mejora.<br><br>
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/img41.png' alt='AvatarTop')
+            .BG15
+              .BG12.p-4
+                .BGR18.p-2.mt-5
+                  h4.text-center.mb-0 Riesgos residuales y aceptables
+              .BG17.p-4.pb-5
+                p.mb-4 El nivel de los riesgos residuales y el riesgo aceptable.<br><br>
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/img42.png' alt='AvatarTop')
+            .BG15
+              .BG05.p-4
+                .BGR18.p-2.mt-5.mb-4
+                  h4.text-center.mb-0 Vulnerabilidades o amenazas
+              .BG19.p-4.pb-5
+                p.mb-0 Las vulnerabilidades o amenazas no abordadas adecuadamente en el análisis de riesgos previos.<br><br>
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/img43.png' alt='AvatarTop')
+            .BG15
+              .BG12.p-4
+                .BGR18.p-2.mt-5.mb-4
+                  h4.text-center.mb-0 Seguimiento
+              .BG17.p-4.pb-5
+                p.mb-0 Las acciones de seguimiento de las revisiones anteriores acometidas por la dirección.<br><br>
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/img44.png' alt='AvatarTop')
+            .BG15
+              .BG05.p-4
+                .BGR18.p-2.mt-5.mb-4
+                  h4.text-center.mb-0 Cambios internos o externos
+              .BG19.p-4.pb-5
+                p.mb-4 Cambios internos o externos que pudieran afectar al SGCN.<br><br>
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/img45.png' alt='AvatarTop')
+            .BG15
+              .BG12.p-4
+                .BGR18.p-2.mt-5.mb-4
+                  h4.text-center.mb-0 Resultados
+              .BG17.p-4
+                p.mb-0 Resultados de los ejercicios realizados, lecciones aprendidas de posibles incidentes y programas de formación en educación y concienciación.
+        p.mb-0 Finalmente, cabe decir que todas las decisiones suelen ir acompañadas de la aprobación de la disposición de los requisitos económicos y presupuestarios en consonancia con las necesidades de recursos detectadas por la propia organización.
 
     p.mb-5 Todo esto es un proceso continuo que requiere de mucha paciencia, compromiso de todos (sobre todo de la alta gerencia para asumir los retos en la planificación de los procesos que se deben llevar a cabo en los planes de mejora) y trabajo en equipo para lograr los resultados esperados. Algunos de los elementos esenciales para desarrollar un sistema de mejora continua en un SGCN son:
 
