@@ -325,7 +325,7 @@ export default {
     },
     {
       referencia:
-        'ISO 22301 (2019). Sistemas de Gestión de Riesgos y Seguridad.',
+        'ISO 22301 (2019). Sistema de Gestión de Continuidad de Negocio.',
       link: 'https://www.isotools.org/normas/riesgos-y-seguridad/iso-22301/',
     },
     {

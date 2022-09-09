@@ -15,7 +15,7 @@
         .row.justify-content-center
           .col-md-5.order-md-1.order-2
             .h4 Ejemplo 1
-            p Una plataforma web de una organización comercializa los productos que esta vende 24 / 7. Es decir, debe tener una disponibilidad casi ininterrumpida en su canal comercial.  Si esta se llegase a encontrar fuera de servicio, los minutos contarían como pérdidas para el negocio. Por está razón, se podría decir que para esta empresa la plataforma web tiene un impacto severo en su servicio y funcionamiento.
+            p Una plataforma web de una organización comercializa los productos que esta vende 24 / 7. Es decir, debe tener una disponibilidad casi ininterrumpida en su canal comercial.  Si esta se llegase a encontrar fuera de servicio, los minutos contarían como pérdidas para el negocio. Por esta razón, se podría decir que para esta empresa la plataforma web tiene un impacto severo en su servicio y funcionamiento.
           .col-md-7.col-10.order-md-2.order-1.mb-md-0.mb-4
             img(src='@/assets/curso/tema2/img01.png')
         .row.justify-content-center
@@ -65,12 +65,12 @@
           p Un ejemplo de ello sería una cadena de inventario. No es un secreto que el proceso de llevar inventarios en una organización es fundamental para otros procesos como ventas, facturación y compras; esto quiere decir que si se detiene el proceso de manejo de inventarios,  la empresa tendría de alguna manera que manejar de forma manual este proceso y por tanto, va a requerir mucho esfuerzo de tiempo.  
       .row.justify-content-center(titulo="Impacto económico")
         .col-md-11
-          p Esto se ve reflejado en pérdidas en ventas o en sanciones impuestas por incumplimientos ocasionados, por no contar con el sistema operable. En algunas ocasiones, este riesgo puede generar sobre costos en las operaciones y generar una doble pérdida para el mismo. 
+          p Esto se ve reflejado en pérdidas en ventas o en sanciones impuestas por incumplimientos ocasionados, por no contar con el sistema operable. En algunas ocasiones, este riesgo puede generar sobrecostos en las operaciones y generar una doble pérdida para el mismo. 
           p Siguiendo con el ejemplo de los inventarios (expuesto en el impacto operativo), en el que se tienen problemas en esta área, podrían causar retraso en los pedidos y por ende, los clientes pueden llegar a sugerir que se les devuelva el dinero, cancelarlos o hasta sancionarlos por incumplimiento. Entonces, desde el punto de vista del riesgo de impacto económico, es de tener en consideración todas las causantes que este pueda ocasionar de acuerdo a los procesos que sean soportados con el mismo.
       .row.justify-content-center(titulo="Impacto de reputación")
         .col-md-11
           p Suelen ser mucho más dañinos, en algunas ocasiones, que las pérdidas económicas puesto que esta última genera la problemática una sola vez pero la reputación se puede ver afectada por un alcance mayor.  
-          p Por ejemplo, la cadena de suministros o logística de una empresa no puede entregar los productos en las fechas planteadas al cliente, implicando su insatisfacción y pérdida económica, trayendo como consecuencias adicionales la pérdida del cliente y de otros más, al enterarse por parte de él su experiencia. Esto, entonces, causaría una perdida de mayor escala y probablemente le cueste mucho a la organización invertir en publicidad para poder cambiar esa imagen que se proyecta de incumplimiento por parte de la organización.
+          p Por ejemplo, la cadena de suministros o logística de una empresa no puede entregar los productos en las fechas planteadas al cliente, implicando su insatisfacción y pérdida económica, trayendo como consecuencias adicionales la pérdida del cliente y de otros más, al enterarse por parte de él su experiencia. Esto, entonces, causaría una pérdida de mayor escala y probablemente le cueste mucho a la organización invertir en publicidad para poder cambiar esa imagen que se proyecta de incumplimiento por parte de la organización.
       .row.justify-content-center(titulo="Impacto legal o contractual")
         .col-md-11
           p Se refiere al momento en el que la empresa interrumpe el proceso de negocio llevando a incumplir un contrato, el cual está estrechamente relacionados con aspectos legales en los que se generan pagos por multas y sanciones. 
@@ -79,7 +79,7 @@
         .col-md-11
           p Este factor se analiza luego de ocurrido el suceso, es decir cuándo se considera que el impacto empieza a realizar pérdidas o compromete la organización en algún proceso.
 
-    p El BIA es una herramienta que brinda la oportunidad de mejorar en los aspectos que realmente lo requiere el negocio y poder alcanzar la mejora continua en todos los aspectos, tanto operativos como administrativos. Por lo que, Para desarrollar efectivamente un plan de continuidad del negocio es importante tener en cuenta las siguientes características:
+    p El BIA es una herramienta que brinda la oportunidad de mejorar en los aspectos que realmente lo requiere el negocio y poder alcanzar la mejora continua en todos los aspectos, tanto operativos como administrativos. Por lo que, para desarrollar efectivamente un plan de continuidad del negocio es importante tener en cuenta las siguientes características:
 
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in")
       .py-3.py-md-4(titulo="Diseño de estrategia")
@@ -121,7 +121,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1.	Medición del impacto de un BIA
     
-    p La medición del impacto de negocio tiene varios procesos a realizar los cuales permiten garantizar que se puedan crear acciones correctivas y preventivas para evitar que el negocio sufra inconvenientes en su operatividad. La medición de impacto inicia con la recolección de información. A continuación, se pressentan algunas consideraciones a tener en cuenta para realizar este proceso:
+    p La medición del impacto de negocio tiene varios procesos a realizar los cuales permiten garantizar que se puedan crear acciones correctivas y preventivas para evitar que el negocio sufra inconvenientes en su operatividad. La medición de impacto inicia con la recolección de información. A continuación, se presentan algunas consideraciones a tener en cuenta para realizar este proceso:
 
     ImagenInfografica.color-primario.mb-5(data-aos="zoom-in")
       template(v-slot:imagen)
@@ -132,7 +132,7 @@
         p La organización debe contar con procesos que permitan obtener la información necesaria para dar inicio a una medición del impacto al negocio. Hay que recordar que los procesos que se realizan en la organización están generando información constantemente, la cual involucra a su vez a las personas que están a la cabeza o son las responsables del proceso que generen. Existen varias técnicas  de recolección. Un ejemplo de ellas son: encuestas, entrevistas y talleres.
       .BG02.p-3(x="64%" y="16%")
         .h4.mb-2 Encuesta
-        p La información de los impactos causados en la organización se obtiene de una manera correcta entrevistando a las personas involucradas en dichos procesos; en algunas ocasiones, estas personas han realizado procedimientos que han permitido llegar a la solución pero no se sabe porqué no se socializa, en la mayoría de ocasiones, con los interesados del proceso.
+        p La información de los impactos causados en la organización se obtiene de una manera correcta entrevistando a las personas involucradas en dichos procesos; en algunas ocasiones, estas personas han realizado procedimientos que han permitido llegar a la solución pero no se sabe por qué no se socializa, en la mayoría de ocasiones, con los interesados del proceso.
       .BG02.p-3(x="70%" y="27.3%")
         .h4.mb-2 Entrevistas
         p Se realiza un conjunto de preguntas a las diferentes secciones de la organización con el fin de indagar sobre los inconvenientes que presentan con respecto al funcionamiento de los procesos de negocio, en sus áreas particulares; de esta manera, se puede generar una base de datos de cómo está funcionando cada proceso de manera individual.
@@ -141,13 +141,13 @@
         p Permite articular los procesos de acuerdo a cómo se visualizan en la organización; es decir, se pueden colocar de manera conjunta para ver cómo es su interacción y revisar cómo afecta en la continuidad del negocio. Esta estrategia suele dar buenos resultados porque en ocasiones se puede visualizar que no se está trabajando de manera articulada para lograr el objetivo sino que cada proceso está aislado el uno del otro.
       .BG02.p-3(x="59.5%" y="57.5%")
         .h4.mb-2 Evaluar la información recopilada
-        p Una vez recopilada la información, de acuerdo a las técnicas mencionadas anteriormente, se debe realizar un proceso riguroso en el cual se examine la información recopilada para realizar la búsqueda de patrones que permitan establecer las diferentes estrategias que pueden ayudar a los procesos de negocio a ser mucho más eficientes y efectivos en la organización. Para realizar una correcta evaluación de los datos se deben tener una consideraciones en cuenta como lo son: su veracidad, calidad y validez. 
+        p Una vez recopilada la información, de acuerdo a las técnicas mencionadas anteriormente, se debe realizar un proceso riguroso en el cual se examine la información recopilada para realizar la búsqueda de patrones que permitan establecer las diferentes estrategias que pueden ayudar a los procesos de negocio a ser mucho más eficientes y efectivos en la organización. Para realizar una correcta evaluación de los datos se deben tener unas consideraciones en cuenta como lo son: su veracidad, calidad y validez. 
       .BG02.p-3(x="87%" y="57.5%")
         .h4.mb-2 Veracidad de la información
         p Para este factor es importante establecer que las preguntas y tipo de instrumentos para la recolección de la información no permite generar ambigüedades en las respuestas que deben proporcionar las personas encuestadas y entrevistadas. En ocasiones, las preguntas que se realizan no permiten que el entrevistado o encuestado sea sincero por temor a represalias o que pueda ser señalado por errores cometidos en los procesos de ejecución de su labor. Por eso, las preguntas deben estar elaboradas de tal manera que la persona sea lo más sincera posible para garantizar que la información sea veraz en la mayoría de sus aspectos.
       .BG02.p-3(x="93%" y="68.3%")
         .h4.mb-2 Calidad de la información
-        p Es importante que desde un punto de vista propio, la información pueda ser medida y que tenga una validez desde los factores técnicos y/o operativos; es decir, que no se utilice un lenguaje fuera del contexto técnico propio del proceso. Este acto está ligado a la comprensión de la información y que al momento de utilizarla aporte los insumos necesarios para tomar decisiones acertadas y mejores.
+        p Es importante que desde un punto de vista propio, la información pueda ser medida y que tenga una validez desde los factores técnicos y/u operativos; es decir, que no se utilice un lenguaje fuera del contexto técnico propio del proceso. Este acto está ligado a la comprensión de la información y que al momento de utilizarla aporte los insumos necesarios para tomar decisiones acertadas y mejores.
       .BG02.p-3(x="87%" y="79.7%")
         .h4.mb-2 Comprobable
         p Uno de los problemas que surge al momento de solicitar información, sea cual sea el instrumento que se utilice, es que siempre existe un margen en el cual la información puede ser comprobada o validada con datos históricos o recopilados de procesos de seguimiento que sustenten los datos e información suministrada.  Un ejemplo de esto sería un empleado en una entrevista comenta que solo se han generado 2 fallas graves en el centro de datos pero en realidad no lleva un registro sobre esos sucesos presentados; por lo tanto, la información que suministra ayuda al proceso pero pierde trazabilidad y en la mayoría de los casos se termina no usando esta información o desechando porque no es comprobable.
@@ -295,7 +295,7 @@
      AcordionA.mb-5(tipo="a" clase-tarjeta="BG06")
       .row.justify-content-center(titulo="Identificación del incidente")
         .col-md-11
-          p En este paso se deben identificar todos los incidentes que se pueden presentar en los procesos de negocio. Este proceso es fundamental puesto que en algunas ocasiones se desconocen procesos que pueden también generar traumatismo. Es importante identificar la mayor cantidad de procesos la conexión que tienen con los demás para garantizar una mayor cobertura.
+          p En este paso se deben identificar todos los incidentes que se pueden presentar en los procesos de negocio. Este proceso es fundamental puesto que en algunas ocasiones se desconocen procesos que pueden también generar traumatismo. Es importante identificar la mayor cantidad de procesos y la conexión que tienen con los demás para garantizar una mayor cobertura.
           p La identificación del incidente se debe ingresar la siguiente información:
           ol.lista-ol--cuadro
             li 
@@ -313,7 +313,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span d
-              | Nombre de quién gestiona el incidente.
+              | Nombre de quien gestiona el incidente.
           p Estos datos proporcionados garantizarán que una vez se presente el incidente, se podrá consultar e identificar de una manera más sencilla y eficiente, pues el tiempo de procesamiento y búsqueda de la información entre menor sea, mucho mejor para el proceso.
       .row.justify-content-center(titulo="Clasificación del incidente")
         .col-md-11

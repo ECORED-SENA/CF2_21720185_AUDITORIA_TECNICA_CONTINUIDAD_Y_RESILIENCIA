@@ -26,7 +26,7 @@
           .row
             .col-md-11
               h4 Recursos
-              p Asignar recursos: en este componente se debe realizar una análisis para determinar con qué recursos cuenta actualmente la empresa y cuáles se requieren de manera adicional para la implementación y puesta en marcha del SGCN. Este paso es fundamental porque garantiza que los procesos cuenten con lo necesario para su correcto funcionamiento, ya sean  de carácter financiero, humano o tecnológico.
+              p Asignar recursos: en este componente se debe realizar un análisis para determinar con qué recursos cuenta actualmente la empresa y cuáles se requieren de manera adicional para la implementación y puesta en marcha del SGCN. Este paso es fundamental porque garantiza que los procesos cuenten con lo necesario para su correcto funcionamiento, ya sean  de carácter financiero, humano o tecnológico.
 
     .BG01.p-4.mb-4(data-aos="fade-right")
       p Uno de los errores más comunes que se puede cometer en la planificación es agregar demasiados procesos sin tener en cuenta los recursos con los que se debe contar para su correcta ejecución. Es importante que la persona que está liderando el proceso realice un diagnóstico inicial para referenciar cuáles son las actividades a tener en cuenta y qué tan alcanzables son con el tiempo que se cuenta.
@@ -59,6 +59,10 @@
         img(src='@/assets/curso/tema1/img04.png')
 
     .row.justify-content-center.align-items-center.mb-5
+      .col-md-10.mb-4
+        .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
+          h5 Figura 1
+          span Recomendaciones
       .col-md-5.col-10.mb-md-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema1/img05.png')
       .col-md-5(data-aos="fade-left")
@@ -87,13 +91,13 @@
     .row.justify-content-center.mb-4
       .col-md-10
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
-          h5 Figura 1
+          h5 Figura 2
           span Tipos de riesgos
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img06.svg')
 
     p Dentro de los riesgos naturales existe un grado de incertidumbre puesto que muchos de ellos son impredecibles; es decir, no se sabe con certeza cuándo se pueden presentar y qué afectaciones pueden generar; en cuyo caso es necesario realizar un análisis y/o investigar cuáles son las causales de riesgo que se pudiesen llegar a presentar, para así realizar medidas preventivas y por ende, planes de contingencia que definan los protocolos a seguir para retornar a los procesos de negocio de manera confiable y segura.
-    p Ahora bien, de acuerdo con el nicho de negocio que la empresa tiene, así serán las causantes que se deben estudiar para establecer los planes de acción a ejecutar. A continuación, se presenta un ejemplo de una matriz de riesgo y la aplicación de los planes de acción a realizar en caso de que ocurra el incidente, medida en su tiempo de recuperación (ver tabla 1):}
+    p Ahora bien, de acuerdo con el nicho de negocio que la empresa tiene, así serán las causantes que se deben estudiar para establecer los planes de acción a ejecutar. A continuación, se presenta un ejemplo de una matriz de riesgo y la aplicación de los planes de acción a realizar en caso de que ocurra el incidente, medida en su tiempo de recuperación (ver tabla 1):
 
     .row.justify-content-center.mb-4
       .col-md-10
@@ -170,19 +174,19 @@
                 td(colspan="2") Alto
                 td(colspan="2") Activar el servidor de respaldo mientras se restablece el principal.
                 td(colspan="2") Dulfran Montaño, Julio Castaño
-                td(colspan="3") Se debe realizar la activación del servidor de respaldo que se encuentra en el rack continuo a las ups.
+                td(colspan="3") Se debe realizar la activación del servidor de respaldo que se encuentra en el #[i rack] continuo a las UPS.
               tr
                 td(style="background-color: #E8E8E8;" colspan="3") Posibles ataques al sitio web por temporada de promociones de productos.
                 td(style="background-color: #E8E8E8;" colspan="2") Medio
                 td(style="background-color: #E8E8E8;" colspan="2") Activar la VPN y un #[i firewall] adicional.
                 td(style="background-color: #E8E8E8;" colspan="2") Dulfran Montaño.
-                td(style="background-color: #E8E8E8;" colspan="3") Redireccionar todas las conexiones externas a la red de la empresa por la vpn para establecer un canal seguro de comunicación.
+                td(style="background-color: #E8E8E8;" colspan="3") Redireccionar todas las conexiones externas a la red de la empresa por la VPN para establecer un canal seguro de comunicación.
               tr  
                 td(colspan="3") Falla de energía eléctrica.
                 td(colspan="2") Bajo
                 td(colspan="2") Encender la planta de energía.
                 td(colspan="2") Julio Castaño
-                td(colspan="3") Se debe activar la planta eléctrica mientras la ups respalda los equipos. Esta acción se debe realizar en un periodo máximo de 10 minutos que es la autonomía que ofrece la ups.
+                td(colspan="3") Se debe activar la planta eléctrica mientras la UPS respalda los equipos. Esta acción se debe realizar en un periodo máximo de 10 minutos que es la autonomía que ofrece la UPS.
 
     .row.justify-content-center.align-items-center.cajon.color-acento-botones.p-4.mb-4(data-aos="fade-right")
       .col-md-2.col-4.mb-md-0.mb-4
@@ -267,9 +271,8 @@
         .row.justify-content-around.align-items-center
           .col-md-8.order-md-1.order-2
             h4 Catastrófico
-            p Es un nivel de riesgo que requiere tener un protocolo de acción bien establecido y maduro. Debe ser probado y contar con un equipo de respuesta inmediata. La mayoría de veces que un tipo de riesgo como este tiene éxito colapsa más de un proceso al tiempo. 
-            p Estos suelen suceder de manera no continua pero ocasionan grandes pérdidas en el negocio. Un ejemplo de ello podría ser el daño estructural del techo del centro de datos y que llueva ese día ocasiona una catástrofe prácticamente en los procesos de negocio, ya que primero la estructura es ya un problema que generará en su momento costos de reparación pero los daños a los dispositivos de conectividad, entre otros, ocasionará otras pérdidas, por lo tanto es un daño que generó otro daño. Para  un caso tan particular como este, se tendría que  tener un centro de datos alterno o un servicio #[i cloud] para respaldar los sistemas mientras se restauran los servicios principales del centro de datos. 
-            p Un riesgo crítico no solo hay que verlo desde el punto de vista ocasionado de forma principal sino aquellos sucesos que lo acompañan y hacen más compleja su solución.
+            p Este nivel de riesgo se puede considerar como un suceso que destruye por completo las operaciones del negocio; para ser un poco más precisos en estos aspectos se podrían llamar devastadores. 
+            p Un ejemplo de ello podría ser un terremoto o una inundación de grandes proporciones, lo cual podría ocasionar la pérdida total de activos de la organización. Ahora bien, este tipo de riesgos aunque en algunas ocasiones es difícil de controlar sí se pueden establecer acciones iniciales para resguardar lo que tenga mayor valor que en su efecto será la información, siendo los servicios de #[i cloud computing] una manera de resguardo.  
           .col-md-3.col-6.order-md-2.order-1.mb-4.mb-md-0
             img(src="@/assets/curso/tema1/img19.png")
 

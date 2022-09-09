@@ -32,7 +32,7 @@
       .row.justify-content-center(titulo="Componente de determinación del alcance")
         .col-md-11
           p Este componente es el de menor duración pero uno de los de mayor importancia puesto que establece los lineamientos que serán incluidos en el plan de continuidad del negocio. 
-          p Está acompañado de un análisis específico de las verdaderas necesidades de la organización y contempla los tiempos y actividades a desarrollar en el transcurso del desarrollo del plan de continuidad. Es importante tener en cuenta que establecer los límites de un procesos es esencial para definir las acciones necesarias para su operatividad.
+          p Está acompañado de un análisis específico de las verdaderas necesidades de la organización y contempla los tiempos y actividades a desarrollar en el transcurso del desarrollo del plan de continuidad. Es importante tener en cuenta que establecer los límites de un proceso es esencial para definir las acciones necesarias para su operatividad.
       .row.justify-content-center(titulo="Componente de análisis de la organización")
         .col-md-11
           p Este componente establece el estudio e inventario de cada uno de los departamentos y secciones que tiene la organización: qué procesos realizan, qué tan críticos son los procesos que realiza, quiénes son las personas responsables de velar para que estos ocurran de manera correcta y por último cuáles son los tiempos establecidos para cada organismo.
@@ -152,7 +152,7 @@
       h2 3.3.	Normatividad
     
     p La normatividad permite estandarizar los procesos y acciones que se ejecutan de manera continua en la organización. Cuando se dice que un proceso se lleva a cabo a través de una norma específica se sabe que este utiliza un referente, en la mayoría de los casos internacional, lo que a su vez es referencia para la aplicación de buenas prácticas y mejorar un proceso de negocio o actividad en particular. Así mismo, las normas, de alguna manera, le dan a la empresa el prestigio y reconocimiento no solo a nivel local sino también internacional, ya que se garantiza que todos los procesos que allí se realizan están debidamente documentados y probados.
-    p Para que una organización empiece un proceso de certificación debe empezar a mejorar y orientar los procesos que esta maneja hacia el referente de la norma, tal como se evidencia en el ejemplo descrito en el siguiente video:
+    p Para que una organización empiece un proceso de certificación debe empezar a mejorar y orientar los procesos que esta maneja hacia el referente de la norma, tal como se evidencia en el ejemplo descrito a continuación:
 
 
     .row.justify-content-center.BG15.p-4.mb-5
@@ -180,7 +180,7 @@
         figure.mb-4(data-aos="zoom-in")
           img(src='@/assets/curso/tema3/img10.svg')
         .BG01.p-4(data-aos="fade-right")
-          p Está basado en las normas británicas la cual tiene todos los requisitos y requerimientos que debe seguir una compañía para implementar un sistema de gestión de la continuidad del negocio también llamado SGCN.
+          p Está basado en las normas británicas las cuales tienen todos los requisitos y requerimientos que debe seguir una compañía para implementar un sistema de gestión de la continuidad del negocio también llamado SGCN.
     
     p La norma ISO 22301 además, ofrece un espectro amplio de trabajo para mantener los procesos funcionales y evitar que la empresa pueda entrar en crisis. A continuación, se expone un poco más sobre este estándar.
 

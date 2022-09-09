@@ -50,13 +50,13 @@
     .row.justify-content-center.mb-4
       .col-md-11(data-aos="fade-right")
         LineaTiempoE.color-acento-contenido
-          .row(titulo="Primero" subtitulo="Paso 1")
+          .row(titulo="Opción 1")
             .col
               p Primero, se categorizan los sucesos presentados, teniendo en cuenta su naturaleza.  Por ejemplo,  si el incidente presentado tiene que ver con el centro de datos se debe realizar énfasis que el incidente pertenece a la parte tecnológica, ya que al momento de realizar un balance de los sucesos es importante establecer cuántos pertenecen por tecnología, ambientales o humanos, y de esta manera poder llevar un registro mucho más detallado de cada uno de ellos.
-          .row(titulo="Segundo" subtitulo="Paso 2")
+          .row(titulo="Opción 2")
             .col
               p Luego, se procede a describir cómo fue solucionado, ya que existen procedimientos establecidos para esto pero en algunas ocasiones puede que este proceso requiere de otros pasos adicionales o si, por el contrario, definitivamente no fue de ayuda la ruta planteada para su solución, lo cual podría generar una análisis sobre lo planteado para ajustarlo.
-          .row(titulo="Tercero" subtitulo="Paso 3")
+          .row(titulo="Opción 3")
             .col
               p Finalmente, se procede a documentarlo. Se debe llevar un registro detallado de los inconvenientes presentados y la manera en cómo se llegó a su solución; en algunas ocasiones, los pasos que se plantean sólo contemplan la ruta de acuerdo a las pruebas realizadas en el momento de la concepción del plan de gestión pero como se ha estudiado, estos procesos pueden llegar a ser dinámicos y este registro de nuevas soluciones va a enriquecer la base de datos que se tenga de estos procesos, permitiendo la existencia de más rutas de acción para tratar los incidentes. 
 
