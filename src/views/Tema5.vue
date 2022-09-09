@@ -448,7 +448,7 @@
           p Ofrecer un curso con los conceptos y conocimientos que se incluirán dentro de la norma de certificación. Es decir, la empresa puede ofrecerle a las partes interesadas el curso que les brinde el proceso de aprendizaje sobre los conceptos y procesos a ejecutar, aunque también es independiente y no obligatorio.
       .row.justify-content-center.align-items-center
         .col-md-8.order-md-1.order-2
-          h4 Proceso de estudio
+          h4 Evaluación
           p La parte interesada será evaluada en tres momentos diferentes donde se toman evidencias del proceso. El primer momento es una evaluación escrita, la cual tiene como objetivo medir los conceptos y conocimientos que tiene la parte interesada sobre la aplicación de la norma. Luego, el segundo momento es una evaluación de desempeño en la cual se le coloca una situación en la cual el candidato debe mostrar destrezas en la ejecución de las actividades contempladas en la norma de certificación y debe cumplir el 100% de esa ejecución, y el tercer paso es una evidencia, esta puede ser consecutivo de la actividad de desempeño donde el aspirante entrega un producto y mediante una lista de chequeo se verifica si el producto entregado cumple con los requisitos exigidos por la norma.
         .col-md-4.col-8.order-md-2.order-1.mb-md-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema5/img30.png')
